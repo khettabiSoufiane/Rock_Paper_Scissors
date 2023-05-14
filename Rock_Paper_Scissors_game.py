@@ -6,7 +6,7 @@ print("The game has started, let's go!")
 while True:
     
         # user input: r, p, s
-        user = input('insert your option " Rock : r ", " Paper : p ", " Scissors : s ": ')
+        user = input('insert your option " Rock : r ", " Paper : p ", " Scissors : s ": ').lower()
 
         # import random library
         pc = random.choice(["r", "p", "s"])
